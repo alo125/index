@@ -123,7 +123,8 @@ ul li ul li a {
 	width: 380px;
 	height: 300px;
 	position: absolute;
-	margin: 8em 10em;
+	margin-top: 12vw ;
+	margin-left: 8vw;
 	letter-spacing: 1px;
 	line-height: 25px; 
 }
@@ -135,7 +136,8 @@ ul li ul li a {
 	width: 380px;
 	height: 300px;
 	position: absolute;
-	margin: 18em 70em;
+	margin-top: 15vw ;
+	margin-left: 70vw;
 	letter-spacing: 1px;
 	line-height: 25px; 
 }
