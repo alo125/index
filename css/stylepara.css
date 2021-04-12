@@ -1,0 +1,68 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.part2 {
+	width: 100%;
+	height: 800px;
+	background-color: #FFF;
+	position: relative;
+}
+.container {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -40%);
+	width: 100%;
+	text-align: center;
+}
+.container img {
+	width: auto;
+	height: 700px;;
+	z-index: 10;
+}
+
+.text {
+	position: absolute;
+	margin-top: -150px;
+	overflow: hidden;
+	width: 100%;
+	font-family:SFU EurostileBold;
+}
+
+
+.text-2 {
+	position: absolute;
+	margin-top: -280px;
+	font-family:SFU EurostileBold;
+	
+}
+
+
+h3 {
+	font-size: 100px;
+	color: #fff;
+	
+}
+
+ h3:first-of-type {
+	position: relative;
+	z-index: -1;
+	 color: #ff7a45;
+	
+}
+
+h3:last-of-type {
+	/* Prefix required. Even Firefox only supports the -webkit- prefix */
+/*	-webkit-text-fill-color:;  Will override color (regardless of order) */
+	color: transparent;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: #ff7a45;
+
+	margin-top: -100px;
+	z-index: 99;
+	
+}
