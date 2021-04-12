@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: whitesmoke;
+  font-size: 0.875em;
+}
+
+input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
+  color: whitesmoke;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  color: whitesmoke;
+  font-size: 0.875em;
+}
+
+input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
+  color: whitesmoke;
+}
+
+input::placeholder, textarea::placeholder {
+  color: whitesmoke;
+  font-size: 0.875em;
+}
+
+input:focus::placeholder, textarea::focus:placeholder {
+  color:whitesmoke;
+}
+
+input::-ms-placeholder, textarea::-ms-placeholder {
+  color: whitesmoke;
+  font-size: 0.875em;
+}
+
+input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
+  color: whitesmoke;
+}
+
+/* on hover placeholder */
+
+input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
+  color: whitesmoke;
+  font-size: 0.875em;
+}
+
+input:hover:focus::-webkit-input-placeholder, textarea:hover:focus::-webkit-input-placeholder {
+  color: whitesmoke;
+}
+
+input:hover::-moz-placeholder, textarea:hover::-moz-placeholder {
+  color: whitesmoke;
+  font-size: 0.875em;
+}
+
+input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder {
+  color: whitesmoke;
+}
+
+input:hover::placeholder, textarea:hover::placeholder {
+  color: whitesmoke;
+  font-size: 0.875em;
+}
+
+input:hover:focus::placeholder, textarea:hover:focus::placeholder {
+  color: whitesmoke;
+}
+
+input:hover::placeholder, textarea:hover::placeholder {
+  color: whitesmoke;
+  font-size: 0.875em;
+}
+
+input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
+  color: whitesmoke;
+}
+
+
+
+header {
+  position: relative;
+  margin: 100px 0 25px 0;
+  font-size: 2.3em;
+  text-align: center;
+  letter-spacing: 7px;
+  color: #FFF;
+}
+
+#form {
+  position: relative;
+  width: 500px;
+  margin: 50px auto 100px auto;
+}
+
+input {
+  font-size: 0.875em;
+    width: 500px;
+  height: 50px;
+  padding: 0px 15px 0px 15px;
+  
+  background: transparent;
+  outline: none;
+  color: #FFF;
+  
+  border: solid 2px #FFF;
+  border-bottom: none;
+  
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+input:hover {
+  background: #ff7a45;
+  color: whitesmoke;
+}
+
+textarea {
+  width: 500px;
+  max-width: 500px;
+  height: 180px;
+  max-height: 180px;
+  padding: 15px;
+  
+  background: transparent;
+  outline: none;
+  
+  color: #FFF;
+  font-size: 1.2em;
+  border: solid 2px #FFF;
+    transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+textarea:hover {
+  background: #ff7a45;
+  color: whitesmoke;
+}
+
+#submit {
+  width: 500px;
+  
+  padding: 0;
+  margin: -5px 0px 0px 0px;
+  
+  font-size: 0.875em;
+  color: #FFF;
+  
+  outline:none;
+  cursor: pointer;
+  
+  border: solid 2px #FFF;
+  border-top: none;
+}
+
+#submit:hover {
+	margin-top: 0px;
+  color: whitesmoke;
+	background-color: #ff7a45;
+}
