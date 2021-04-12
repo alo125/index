@@ -14,7 +14,10 @@
 	background-image: url("../images/bg_coc.png");
 	background-size: cover;
 	font-family:"SFU Eurostile";
-}
+	  background-repeat: no-repeat;
+	    background-size: cover;
+	    background-attachment: fixed;
+	}
 
 .header {
 	width: 100%;
