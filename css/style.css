@@ -137,7 +137,7 @@ ul li ul li a {
 	height: 300px;
 	position: absolute;
 	margin-top: 15vw ;
-	margin-left: 62vw;
+	margin-left: 67vw;
 	letter-spacing: 1px;
 	line-height: 25px; 
 }
@@ -177,7 +177,7 @@ ul li ul li a {
 	position: absolute;
 	font-size: 45px;
 	text-align: right;
-	font-weight:500px;
+	font-weight:bolder;
 	font-style:normal;
 	letter-spacing: 5px;
 	margin: 100 auto;
